@@ -1,0 +1,17 @@
+server:
+  host: "localhost"
+  port: 8080
+  write-timeout: 10
+  read-timeout: 10
+
+database:
+  host: "localhost"
+  port: 5432
+  username: "postgres"
+  password: "postgres"
+  database: "one_day_job"
+  ssl-mode: disable
+  migration: true
+logger:
+  write-to-file: true
+  format: json
